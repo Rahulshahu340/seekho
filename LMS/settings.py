@@ -86,8 +86,8 @@ WSGI_APPLICATION = 'LMS.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
         'USER':'postgres',
         'PASSWORD':'MYNYQodmeUJcXiRASWHX',
         'HSOT': 'containers-us-west-155.railway.app',
